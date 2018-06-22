@@ -1,0 +1,43 @@
+<h1> user information</h1>
+
+
+<input type="text" [(ngModel)]="id">
+<input type="button" value="submit" (click)="getUsersById()">
+
+<div *ngFor="let user of users">
+
+  <label>  Name:</label>{{user?.name}}
+  <br>
+  <label> email:</label>{{user?.email}}
+  <br/>
+  <label> username:</label>{{user?.username}}
+  <br/>
+  <label> telephone:</label>{{user?.phone}}
+  <br/>
+</div>
+
+
+<label>{{id}}</label>
+
+<br>
+<br>
+<br>
+<br>
+
+<input type="text" [(ngModel)]="product">
+<input type="button" value="submit" (click)="getproductById()">
+
+<div *ngFor="let user of users">
+
+  <label>  Name:</label>{{product?.name}}
+  <br>
+  <label> email:</label>{{user?.email}}
+  <br/>
+  <label> username:</label>{{user?.username}}
+  <br/>
+  <label> telephone:</label>{{user?.phone}}
+  <br/>
+</div>
+
+
+<label>{{product}}</label>
