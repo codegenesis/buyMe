@@ -21,6 +21,7 @@ public class CouchbaseServerPersistenceProvider
 	static final String COUCHBASE_SERVER_HOST_NAME = "127.0.0.1";
 	static final String COUCHBASE_SERVER_BUCKET_NAME = "user";
 	static final String COUCHBASE_SERVER_BUCKET_PASS = "shacluster";
+	// This is my created cluster
 
 	@Bean
 	public Bucket getBucket()
