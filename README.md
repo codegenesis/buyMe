@@ -1,2 +1,7 @@
 # fullstack
-Full Stack App with AngularJS Front end with Spring boot middleware-backend . Persistence with Couchbase.
+
+Full Stack Web Application using :
+
+Angular 6+ (Front End) 
+Spring Boot Java 8+ (Back End)
+Couchbase 5+ (Persistence Middleware)
