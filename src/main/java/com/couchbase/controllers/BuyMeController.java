@@ -11,7 +11,7 @@ import com.couchbase.dataaccess.couchbase.server.CouchbaseServerDataAccessImpl;
 
 @RestController
 @RequestMapping("/user")
-public class CourseController
+public class BuyMeController
 {
 
     @Autowired
