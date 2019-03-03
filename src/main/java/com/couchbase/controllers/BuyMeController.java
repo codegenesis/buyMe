@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.couchbase.dataaccess.couchbase.server.CouchbaseServerDataAccessImpl;
 
+
+// Rest Controller
+
 @RestController
 @RequestMapping("/user")
 public class BuyMeController
